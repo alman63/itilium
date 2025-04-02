@@ -7,3 +7,12 @@ body {
 .li {
   padding: 10px;
 }
+.wrapper {
+  display: flex;
+}
+.wrapper > * {
+  flex: 1 1;
+}
+.doc {
+  width: 47%;
+}
