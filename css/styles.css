@@ -1,14 +1,30 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
 body {
   /* max-width: 800px; */
   display: flex;
   flex-direction: column;
   align-items: center;
+  height: 100vh;
+  gap: 7%;
+  font-family: "Roboto", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-size: 16px;
+}
+h2 {
+  padding: 10px;
 }
 .li {
   padding: 10px;
 }
 .wrapper {
   display: flex;
+  gap: 10%;
 }
 .wrapper > * {
   flex: 1 1;
@@ -18,4 +34,25 @@ body {
 }
 .test {
   color: red;
+}
+.doc {
+  padding: 30px;
+  -webkit-box-shadow: 0px 16px 28px -3px rgba(66, 162, 236, 0.2);
+  -moz-box-shadow: 0px 16px 28px -3px rgba(66, 162, 236, 0.2);
+  box-shadow: 0px 16px 28px -3px rgba(66, 162, 236, 0.2);
+  border-radius: 25px;
+}
+.spravka {
+  padding: 30px;
+  -webkit-box-shadow: 0px 16px 28px -3px rgba(66, 162, 236, 0.2);
+  -moz-box-shadow: 0px 16px 28px -3px rgba(66, 162, 236, 0.2);
+  box-shadow: 0px 16px 28px -3px rgba(66, 162, 236, 0.2);
+  border-radius: 25px;
+}
+.ref {
+  padding: 30px;
+  -webkit-box-shadow: 0px 26px 28px 21px rgba(66, 162, 236, 0.2);
+  -moz-box-shadow: 0px 26px 28px 21px rgba(66, 162, 236, 0.2);
+  box-shadow: 0px 26px 28px 21px rgba(66, 162, 236, 0.2);
+  border-radius: 25px;
 }
